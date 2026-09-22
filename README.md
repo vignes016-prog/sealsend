@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=250&section=header&text=Hi%20👋,%20I'm%20Sealsend&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=250&section=header&text=Welcome%20to,%20P2P%20Sealsend&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 
 
 A simple peer-to-peer (P2P) file transfer application built with Java and Spring Boot. Files are sent directly from one computer to another over a raw socket connection — no third-party server ever touches the file data.
