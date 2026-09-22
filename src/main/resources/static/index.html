@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SealSend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SealSend</h1>
+        <p class="subtitle">Simple peer-to-peer file transfer</p>
+
+        <!-- Add Peer section -->
+        <section class="card">
+            <h2>Add a Peer</h2>
+            <form id="peerForm">
+                <input type="text" id="peerName" placeholder="Friend's name" required>
+                <input type="text" id="peerIp" placeholder="IP address (e.g. 127.0.0.1)" required>
+                <input type="number" id="peerPort" placeholder="Port (e.g. 9090)" required>
+                <button type="submit">Add Peer</button>
+            </form>
+            <p id="peerMessage" class="message"></p>
+        </section>
+
+        <!-- Peer list + send file section -->
+        <section class="card">
+            <h2>Your Peers</h2>
+            <button id="refreshBtn">Refresh List</button>
+            <ul id="peerList"></ul>
+        </section>
+
+        <!-- Send file section -->
+        <section class="card">
+            <h2>Send a File</h2>
+            <form id="sendForm">
+                <select id="peerSelect" required>
+                    <option value="">-- Select a peer --</option>
+                </select>
+                <input type="file" id="fileInput" required>
+                <button type="submit">Send File</button>
+            </form>
+            <p id="sendMessage" class="message"></p>
+        </section>
+
+        <!-- Received files list -->
+        <section class="card">
+            <h2>Received Files</h2>
+            <p class="hint">Check the <code>received_files</code> folder on this computer.</p>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

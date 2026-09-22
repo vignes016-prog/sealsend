@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* { box-sizing: border-box; }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 40px 20px;
+    color: #222;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 0;
+    color: #2c3e50;
+}
+
+.subtitle {
+    color: #666;
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    background: #2c7be5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #1a5fc1;
+}
+
+#refreshBtn {
+    margin-bottom: 12px;
+    width: auto;
+}
+
+ul#peerList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#peerList li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#peerList li:last-child {
+    border-bottom: none;
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.message.success { color: #1a7f37; }
+.message.error { color: #c92a2a; }
+
+.hint {
+    color: #888;
+    font-size: 13px;
+}
+
+code {
+    background: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+}

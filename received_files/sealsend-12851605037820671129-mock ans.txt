@@ -1,0 +1,118 @@
+1.what is Spring interface:
+Spring is application framework which used to provide the service to the java application and its hold predefined class interfaces method
+
+2.why Spring?
+Spring is used to overcome the Ejb application first of all ejb means the application  which is develeped by java it can inter  another appliacation developed java its self only if its not java some other lang like pyhton ruby its not able to intract 
+Spring whic is overcome the drawback and its provide service to the application and intract all language
+
+3.spring modules:
+   
+Spring Orm - for hibernate and jpa
+ 
+spring  security : for the security to java applicationn
+ 
+Spring jdbc : database
+
+Spring testing : to test the service
+
+Spring Bean : which is used for bean management 
+ 
+Spring Mvc : web developement
+
+
+4.Ioc :
+Inversion of Control which is used in spring ico is method is used to create object directly to the class instead of new keyword used to create object its automaticaly got created
+
+5.Dependency injection:
+this is one of the method which is present in Ioc its used to create object is has some method we can inject 
+1.direct
+2.by using getter and setter 
+3.by using constrector
+
+6.What is Bean  
+its maintain the create configure and  maintain by using Ioc 
+
+7.what is application factory :
+its  application context and its has a method AnnotationConfigarationApplicationContext 
+its extend by bean factory its egar loading most commonly used to developed application
+
+8.  bean factory and application context
+bean factory : lazy loading 
+and less user using 
+bean create only if need
+  
+application context:
+eagar loading and most user can use this
+
+
+9.jdbc 
+java database conectivity which is used to connect the java code to database 
+
+10.use of jdbc :
+this is used to stored the dat a to the data base from the java class so we no need write the data into database instead of we stroed by using query in java class
+
+11. step jdbc 
+five method we used to connnect 
+1.load 
+2.create connection
+3.create statement 
+4.established query
+5.close connection
+ then use try catch method to save the data 
+
+12.main jdbc interface
+1.create connection
+2.create statement 
+3.established query
+4.close connection
+
+13.driver manager
+use dirver  manager class to call the register driver
+Driver()
+
+14:prepared statement :
+this method we can used to many time and its loaded only one time and access many time 
+but statement its load howmany time we can execute the program its will load that many time
+and its lazy loading
+
+15.hibernate :
+hibernate is an application framework its has some pre-defined interface and class which is use d to connect the java code into database
+its alternative of jdbc its reduce the boiler plate of code
+
+16. use of hibernate:
+its alternative of jdbc its reduce the boiler plate of code its has three method
+1.EntityManagerFactory 
+2.Entity Manager 
+3.Entity Transaction
+
+17.Orm :
+orm is object relational model used to stored the values by using objects
+
+
+18.hibernate have a method entitymanager 
+if we want save use persist()
+update merge()
+if we want to delete used remove()
+if find findbyid()
+these are the method we used and we can store delete view update everything in java application itself its got modified the database
+
+
+19.@Entity 
+Entity used to make the class as entity and make the class name as a table name
+
+20.@table :
+if we want to change the table name we used @table to pass the name create table by the name
+
+21.@id:
+its used to make the id as a primary key and avoid duplication and fetching help full
+
+22. @genarededValue used to genarate the value use some types  idendity used to add it automaticaly in default auto also same to automaticaly uniqe value
+
+23.@sequence we used to add want we like romon number letter number we can get
+
+24.@coloum used to connnect to entity class and avoid duplication
+
+25.diff btwn save() perisist()
+save () used in jdbc to save the data but persist() used to save the data in hibernate
+update() used in jdbc to update the data merge() used to update the data
+ 
